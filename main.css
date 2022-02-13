@@ -1,0 +1,71 @@
+.Title { 
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.StopWatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top:50px;
+  left:100px;
+  height: 600px;
+  width: 500px;
+  background-color: #000;
+  border-radius: 15%;
+}
+
+#Timer {
+  background-color: #000;
+  font-size: 70px;
+  color: #fff;
+  text-align: right;
+  width: 400px;
+  margin-top: 50px;
+}
+
+.Operation {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #000;
+  width: 500px;
+  padding-top: 50px;
+}
+
+.Button {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  border-color: red;
+  border-style: double;
+  font-size: 23px;
+  color: red;
+  background-color: #660000;
+}
+
+.Button:first-of-type {
+  border-color: lime;
+  color: lime;
+  background-color:#003300;
+}
+
+.Button:last-of-type {
+  border-color: white;
+  color: white;
+  background-color: #ccc;
+}
+
+.Button:hover {
+  opacity: 0.8;
+}
+
+.inactive {
+  opacity:0.4;
+}
+
+.inactive:hover{
+  opacity:0.4;
+}
